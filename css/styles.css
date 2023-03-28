@@ -187,88 +187,90 @@ h1, h2, h3, p {
 
 /* Features */
 .features {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .features-container {
-    display: flex;
-    flex-wrap: wrap;
+    
     padding: 0;
 }
 
 .features-container .item {
-    width: 264px;
-    margin-right: 24px;
+    max-width: 396px;
+   
     padding: 0;
 }
 
-.item:last-child {
-    margin-right: 0;
-}
 
 .features-title {
     color: var(--primary-text-color);
+    width: 100%;
+    text-align: center;
 }
 
 .features-logo-icon {
-    background-color: var(--bg-light-color);
+    display: none;
+    /* background-color: var(--bg-light-color);
     width: 264px;
     height: 112px;
     border-radius: 4px;
     padding: 24px 102px;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
 }
 
 .features-item {
     color: var(--primary-text-color);
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    column-gap: 72px;
+    /* font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px;
+    margin-bottom: 8px; */
 /* identical to box height, or 120% */
 }
 
 .features-text {
     color: var(--secondary-text-color);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-/* or 150% */
-}
-
-/* About */
-.about {
-    padding-bottom: 120px;
-}
-
-.about-title {
-    color: var(--primary-text-color);
-    text-align: center;
     margin-bottom: 72px;
 }
 
-.about-container {
-    display: flex;
-    padding: 0;
+.features-text:last-child {
+    /* margin-bottom: 0; */
+  }
+
+/* About */
+.about {
+    display: none;
 }
-
-
-.about-photo:not(:last-child) {
-    margin-right: 24px;
-}
-
 
 /* Team */
 .team {
     background-color: var(--bg-light-color);
     text-decoration: none;
-    padding: 120px 0;
+    padding: 96px 0;
 }
 
 .team-container {
-    display: flex;
     padding: 0;
+}
+
+.container-sm {
+    display: flex;
+    flex-direction: column;
+    max-width: 264px;
+    row-gap: 72px;
 }
 
 .team-list {
@@ -277,9 +279,6 @@ h1, h2, h3, p {
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-list:not(:last-child) {
-    margin-right: 24px;
-}
 
 .team-title {
     color: var(--primary-text-color);
@@ -300,7 +299,6 @@ h1, h2, h3, p {
     line-height: 1.2;
     padding-top: 32px;
     margin-bottom: 8px;
-/* identical to box height, or 120% */
 }
 
 .team-text {
@@ -309,7 +307,6 @@ h1, h2, h3, p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 8px;
-/* or 150% */
 }
 
 .team-description {
@@ -352,13 +349,12 @@ h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-/* identical to box height, or 111% */
 }
 
 /* Customers */
 .customers {
-    padding-top: 130px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .customers-title {
@@ -369,6 +365,7 @@ h2 {
 
 .customers-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 24px;
@@ -377,7 +374,7 @@ h2 {
 
 .customer-item {
     color: #AFB1B8;
-    width: 168px;
+    width: calc((100% - 24px) / 2);
     height: 88px;
 }
 

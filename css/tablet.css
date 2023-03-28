@@ -1,0 +1,94 @@
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /* FEATURES */
+
+    .features-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .features-container .item {
+        width: 264px;
+        margin-right: 24px;
+        padding: 0;
+    }
+
+    .item:last-child {
+        margin-right: 0;
+    }
+
+  
+
+    .features-logo-icon {
+        display: flex;
+        background-color: var(--bg-light-color);
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        padding: 24px 102px;
+        margin-bottom: 8px;
+    }
+
+    /* About */
+.about {
+    display: flex;
+    padding-bottom: 120px;
+}
+
+.about-title {
+    color: var(--primary-text-color);
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.about-container {
+    display: flex;
+    padding: 0;
+}
+
+
+.about-photo:not(:last-child) {
+    margin-right: 24px;
+}
+
+    /* TEAM */
+    .team {
+        padding: 96px  123px;
+    }
+    
+    .team-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
+    }
+
+    .team-list {
+        width: calc((100% - 24px) / 2);
+    }
+
+    /* CUSTOMERS */
+
+    .customer-item {
+        width: calc((100% - 48px) / 3);
+        height: 88px;
+    }
+
+    /* Portfolio  */
+
+  
+}
+
+@media screen and (min-width: 768px), (max-width: 1199px) {
+    .container-sm {
+        width: 552px;
+        row-gap: 72px;
+    }
+
+    
+}
