@@ -4,6 +4,48 @@
         max-width: 1158px;
     }
 
+    .contacts {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        margin-left: 121px;
+        margin-right: 120px;
+        gap: 12px;
+    }
+    
+
+    .hero {
+        padding: 188px 0;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+         url(../images/people-office.jpg);
+    }
+
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+        padding: 188px 0;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+         url(../images/people-office-desktop-2x.jpg);
+    }
+}
+
+    .hero-container {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        /* margin-bottom: 48px; */
+    }
+
     /* FEATURES */
     .features {
         padding-top: 120px;
@@ -12,7 +54,7 @@
 
     .features-container {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
     }
 
@@ -89,9 +131,44 @@
         padding-bottom: 120px;
     }
 
+    .customers-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
     .customer-item {
         width: 168px;
         height: 88px;
+    }
+
+      /* FOOTER */
+      .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 1158px;
+        padding: 0;
+    }
+
+      .footer-logo {
+        display: block;
+        width: 30%;
+    }
+
+    .footer-content {
+        display: block;
+        width: 25%;
+        margin-left: 24px;
+    }
+
+    .footer-subscribe {
+        width: 45%;
+    }
+
+    .subscribe-submit {
+        margin-right: 24px;
     }
 
    /* Portfolio */

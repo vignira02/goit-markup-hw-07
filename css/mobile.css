@@ -5,6 +5,26 @@
         padding-left: 16px;
     }
 
+    .contact-tel {
+        font-size: 36px;
+    }
+
+    .contact-mail {
+        font-size: 20px;
+    }
+
+    .hero-title {
+        font-size: 30px;
+        width: 320px;
+    }
+
+    .header-social-list {
+        display: flex;
+        justify-content: center;
+        gap: 56px;
+        margin-top: 48px;
+    }
+
     /* FEATURES */
 
     /* TEAM */
@@ -31,9 +51,13 @@
 }
 
 @media screen and (max-width: 479px) {
-.container {
-    max-width: 396px;
-}
+    .container {
+        max-width: 320px;
+    }
+
+    .hero-container {
+        width: 100%;
+    }
 
     .team-container {
         display: flex;
@@ -54,6 +78,6 @@
     }
 
     .customer-container {
-        max-width: 396px;
+        max-width: 320px;
     }
 }
