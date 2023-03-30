@@ -88,7 +88,7 @@ h1, h2, h3, p {
     transition: transform 250ms ease-in-out;
 }
 
-.header-navigation-tb{
+.header-navigation{
     display: none;
 }
 

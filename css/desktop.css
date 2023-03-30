@@ -8,13 +8,13 @@
     }
 
     .adresses {
-        margin-left: auto;
+        
     }
 
     .contacts {
         flex-wrap: nowrap;
         flex-direction: unset;
-        margin-left: 332px;
+        
         gap: 40px;
     }
 
