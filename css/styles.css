@@ -172,11 +172,7 @@ h1, h2, h3, p {
 
 .link-mb.current-mb {
     color: var(--accent-color);
-    /* display: block;
-    position: relative; */
 }
-
-
 
 
 .contacts-mb {
@@ -214,37 +210,6 @@ h1, h2, h3, p {
     line-height: 1.1;
     letter-spacing: 0.02em;
     padding-bottom: 40px;
-}
-
-
-.header-social-list {
-    display: flex;
-    justify-content: center;
-    gap: 38px;
-    margin-top: 48px;
-}
-
-.header-social-item {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 32px;
-}
-
-.header-social-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: var(--accent-bg-color);
-    transition: background-color 250ms var(--timing-function);
-}
-
-.header-social-link:hover,
-.header-social-link:focus {
-    background-color: var(--button-bg-color);
-    transition: transform 250ms var(--timing-function), opacity 250ms var(--timing-function);
 }
 
 /* Hero Section */
@@ -345,10 +310,6 @@ h1, h2, h3, p {
     line-height: 1.5;
     margin-bottom: 72px;
 }
-
-.features-text:last-child {
-    /* margin-bottom: 0; */
-  }
 
 /* About */
 .about {
@@ -590,12 +551,6 @@ h2 {
     background-color: #31D0AA;
 }
 
-.footer-social-icon {
-}
-
-.footer-form {
-    
-}
 .footer-form-title {
     font-weight: 500;
     font-size: 16px;
@@ -661,9 +616,6 @@ h2 {
     transition: background-color 250ms var(--timing-function);
 }
 
-.suscribe-icon {
-}
-
 /* MODAL WINDOW */
 
 .backdrop {
@@ -688,8 +640,8 @@ h2 {
 
 .modal {
     background: #FCFCFC;
-    width: 408px;
-    min-height: 576px;
+    width: 392px;
+    min-height: 586px;
     padding: 24px;
     position: absolute;
     top: 50%;
@@ -773,7 +725,7 @@ h2 {
     color: #8E8F99;
     font-weight: 400;
     font-size: 12px;
-    line-height: 14px;
+    line-height: 1.11;
     letter-spacing: 0.01em;
     transition: border 2500ms var(--timing-function);
 }
@@ -929,6 +881,11 @@ h2 {
     padding: 96px 0;
 }
 
+/* .portfolio-container {
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+
 .link-portfolio {
     font-style: normal;
     text-decoration: none;
@@ -943,11 +900,10 @@ h2 {
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
-    flex-basis: calc((100% - 48px) / 3);
-    column-gap: 24px;
-    row-gap: 48px;
+    flex-direction: column;
+    column-gap: 48px;
     box-sizing: border-box;
-    max-width: 100%;
+    
     height: auto;
     padding-left: 0;
     margin: 0;
@@ -955,6 +911,7 @@ h2 {
 
 .list-box {
     position: relative;
+    max-width: 396px;
 }
 
 .list-box:hover,
@@ -1051,9 +1008,10 @@ h2 {
 /* Button */
 .buttons-container {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 24px;
     margin-bottom: 76px;
 }

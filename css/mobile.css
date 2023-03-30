@@ -1,8 +1,8 @@
 @media screen and (min-width: 480px) {
     .container {
         max-width: 428px;
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .contact-tel {
@@ -79,5 +79,23 @@
 
     .customer-container {
         max-width: 320px;
+    }
+
+    /* MODAL */
+
+    .modal {
+        width: 300px;
+    }
+
+    .modal-title {
+        font-size: 11px;
+    }
+
+    .form-label-checkbox {
+        font-size: 8px;
+    }
+
+    .list-box {
+        max-width: 310px;
     }
 }
