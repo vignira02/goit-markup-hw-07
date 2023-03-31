@@ -7,20 +7,34 @@
         margin: 0 auto;
     }
 
+    .header-nav-wrap {
+        display: none;
+    }
+
+    .header-navigation-tb {
+        width: 100%;
+    }
+
+    .logo {
+        margin-right: 76px;
+    }
+
     .adresses {
-        
+        margin-left: auto;
     }
 
     .contacts {
         flex-wrap: nowrap;
         flex-direction: unset;
-        
         gap: 40px;
     }
 
     .contacts a {
         font-size: 16px;
         line-height: 1.5;
+        padding: 24px 0;
+        display: block;
+        
     }
 
 

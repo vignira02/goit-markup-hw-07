@@ -19,8 +19,6 @@
     }
 
     .header-social-list {
-        display: flex;
-        justify-content: center;
         gap: 56px;
         margin-top: 48px;
     }
