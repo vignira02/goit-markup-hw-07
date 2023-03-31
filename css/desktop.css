@@ -66,7 +66,6 @@
     /* FEATURES */
     .features {
         padding-top: 120px;
-        padding-bottom: 120px;
     }
 
     .features-container {
@@ -102,6 +101,7 @@
 
     /* About */
     .about {
+        display: flex;
         padding-bottom: 120px;
     }
 
@@ -143,8 +143,12 @@
 
     /* CUSTOMERS */
     .customers {
-        padding-top: 130px;
+        padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .customer-container {
+        width: 1158px;
     }
 
     .customers-list {
@@ -165,7 +169,7 @@
     }
 
       .footer-logo {
-        width: 30%;
+        width: 32%;
     }
 
     .footer-content {
@@ -173,11 +177,11 @@
     }
 
     .footer-subscribe {
-        width: 45%;
+        width: 43%;
     }
 
     .subscribe-submit {
-        margin-right: 24px;
+        margin-right: 0;
     }
 
    /* Portfolio */

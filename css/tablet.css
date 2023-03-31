@@ -305,6 +305,10 @@
         row-gap: 72px;
     }
 
+    .customer-container {
+        width: 565px;
+    }
+
     .footer-container {
         width: 565px;
     }

@@ -53,7 +53,7 @@ h1, h2, h3, p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 24px 0;
+    padding: 24px 15px;
 }
 
 .header-btn-mob {
@@ -178,7 +178,7 @@ h1, h2, h3, p {
 .contacts-mb {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 244px;
+    margin-top: auto;
 } 
 
 .contacts-mb a {
@@ -290,7 +290,6 @@ h1, h2, h3, p {
 /* Features */
 .features {
     padding-top: 96px;
-    padding-bottom: 96px;
 }
 
 .features-container {
@@ -368,7 +367,6 @@ h1, h2, h3, p {
 .team-title {
     color: var(--primary-text-color);
     text-align: center;
-    margin-bottom: 72px;
     box-sizing: border-box;
     max-width: 100%;
     height: auto;
@@ -404,7 +402,7 @@ h1, h2, h3, p {
 .team-social-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 20px;
 }
 
 .team-social-item {
@@ -702,7 +700,7 @@ h2 {
 
 
 .close-icon {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -765,6 +763,7 @@ h2 {
     margin-bottom: 4px;
 }
 
+
 .form-control {
     position: relative;
 }
@@ -781,6 +780,11 @@ h2 {
     display: block;
     width: 100%;
     height: 120px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8E8F99;
     padding: 8px 16px;
     margin-bottom: 16px;
     border: 1px solid rgba(46, 47, 66, 0.2);
@@ -905,10 +909,10 @@ h2 {
     padding: 96px 0;
 }
 
-/* .portfolio-container {
+.portfolio-container {
     padding-right: 15px;
     padding-left: 15px;
-} */
+}
 
 .link-portfolio {
     font-style: normal;
