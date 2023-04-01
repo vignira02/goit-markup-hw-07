@@ -85,6 +85,21 @@
         width: 300px;
     }
 
+    .form-label-checkbox {
+        /* display: inline-block/; */
+        
+    }
+
+    .form-label-checkbox::before {
+        content: '';
+        width: 20px;
+        height: 16px;
+    }
+
+    .form-text {
+        display: inline;
+    }
+
 
     .list-box {
         max-width: 310px;

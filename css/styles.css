@@ -129,7 +129,7 @@ h1, h2, h3, p {
 
 
 .header-btn-mob-icon {
-    display: block;
+    display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
@@ -252,7 +252,7 @@ h1, h2, h3, p {
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;
-    
+    background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
